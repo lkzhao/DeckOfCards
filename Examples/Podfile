@@ -1,0 +1,10 @@
+platform :ios, '9.0'
+
+target 'DeckOfCardsExamples' do
+  use_frameworks!
+  pod "Hero", :path=>"../../Hero"
+end
+target 'DeckOfCards' do
+  use_frameworks!
+  pod "Hero", :path=>"../../Hero"
+end
